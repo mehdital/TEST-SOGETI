@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(233, 232, 251);
+}
+
+header, 
+form,
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-trash,
+.fa-check {
+    pointer-events: none;
+}
+
+.checked { 
+    text-decoration: line-through;
+}
